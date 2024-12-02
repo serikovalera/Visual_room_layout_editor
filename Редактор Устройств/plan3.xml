@@ -1,0 +1,40 @@
+<house>
+  <walls>
+    <wall>
+      <geometry x="0" y="0" h="20" w="1000"/>
+    </wall>
+    <wall>
+      <geometry x="1000" y="0" h="500" w="20"/>
+    </wall>
+    <wall>
+      <geometry x="500" y="0" h="800" w="20"/>
+    </wall>
+    <wall>
+      <geometry x="500" y="500" h="20" w="520"/>
+    </wall>
+    <wall>
+      <geometry x="0" y="800" h="20" w="520"/>
+    </wall>
+    <wall>
+      <geometry x="0" y="0" h="800" w="20"/>
+    </wall>
+  </walls>
+  <furniture>
+    <furnitureitem type="door">
+      <geometry x="0" y="300" h="200" w="20"/>
+    </furnitureitem>
+    <furnitureitem type="door">
+      <geometry x="500" y="100" h="100" w="20"/>
+    </furnitureitem>
+    
+    <furnitureitem type="window">
+      <geometry x="150" y="0" h="20" w="200"/>
+    </furnitureitem>
+    <furnitureitem type="window">
+      <geometry x="150" y="800" h="20" w="200"/>
+    </furnitureitem>
+    <furnitureitem type="window">
+      <geometry x="650" y="0" h="20" w="200"/>
+    </furnitureitem>
+  </furniture>
+</house>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<house>
+<walls>
+  <wall id="1">
+    <geometry x="0" y="0" w="500" h="20" />
+  </wall>
+  <wall id="2">
+    <geometry x="500" y="0" w="1000" h="20" />
+  </wall>
+  <wall id="3">
+    <geometry x="1500" y="0" w="20" h="300" />
+  </wall>
+  <wall id="4">
+    <geometry x="1500" y="300" w="300" h="20" />
+  </wall>
+   <wall id="5">
+    <geometry x="1780" y="300" w="20" h="400" />
+  </wall>
+  <wall id="6">
+    <geometry x="1500" y="700" w="300" h="20" />
+  </wall>
+  <wall id="8">
+    <geometry x="0" y="700" w="1500" h="20" />
+  </wall>
+  <wall id="9">
+    <geometry x="0" y="0" w="20" h="700" />
+  </wall>
+  <wall id="10">
+    <geometry x="500" y="0" w="20" h="700" />
+  </wall>
+  <wall id="11">
+    <geometry x="500" y="700" w="1280" h="20" />
+  </wall>
+  <wall id="12">
+    <geometry x="0" y="400" w="500" h="20" />
+  </wall>
+</walls>
+
+  <doors>
+    <door id="2" wall_id="2">
+      <geometry x="0" y="100" w="20" h="100" />
+    </door>
+  </doors>
+  <windows>
+    <window id="2" wall_id="2">
+      <geometry x="0" y="500" w="20" h="100" />
+    </window>
+  </windows>
+  <ladders>
+    <ladder id="1">
+      <geometry x="200" y="500" w="300" h="200" />
+    </ladder>
+  </ladders>
+</house>

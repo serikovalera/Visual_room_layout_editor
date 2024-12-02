@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/server2.png</file>
+        <file>icons/pc.png</file>
+        <file>icons/warning.png</file>
+        <file>icons/phone.png</file>
+        <file>icons/printer.png</file>
+        <file>textures/pattern.jpg</file>
+        <file>house_plan.xml</file>
+        <file>icons/saveas.png</file>
+        <file>icons/open.png</file>
+        <file>icons/save.png</file>
+        <file>icons/arrow.png</file>
+        <file>icons/drag.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,80 @@
+<house>
+ <walls>
+  <wall>
+   <geometry h="20" w="1500" x="0" y="0"/>
+  </wall>
+  <wall>
+   <geometry h="1000" w="20" x="1500" y="0"/>
+  </wall>
+  <wall>
+   <geometry h="20" w="1500" x="0" y="1000"/>
+  </wall>
+  <wall>
+   <geometry h="1000" w="20" x="0" y="0"/>
+  </wall>
+  <wall>
+   <geometry h="1000" w="20" x="400" y="0"/>
+  </wall>
+  <wall>
+   <geometry h="20" w="400" x="0" y="500"/>
+  </wall>
+  <wall>
+   <geometry h="500" w="20" x="1200" y="500"/>
+  </wall>
+  <wall>
+   <geometry h="20" w="300" x="1200" y="500"/>
+  </wall>
+ </walls>
+ <furniture>
+  <furnitureitem type="door">
+   <geometry h="20" w="200" x="700" y="1000"/>
+  </furnitureitem>
+  <furnitureitem type="door">
+   <geometry h="100" w="20" x="400" y="200"/>
+  </furnitureitem>
+  <furnitureitem type="door">
+   <geometry h="100" w="20" x="400" y="700"/>
+  </furnitureitem>
+  <furnitureitem type="door">
+   <geometry h="100" w="20" x="1200" y="700"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="200" w="20" x="0" y="200"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="200" w="20" x="0" y="700"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="200" w="20" x="1500" y="700"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="200" w="20" x="1500" y="200"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="20" w="200" x="500" y="0"/>
+  </furnitureitem>
+  <furnitureitem type="window">
+   <geometry h="20" w="200" x="1000" y="0"/>
+  </furnitureitem>
+  <furnitureitem type="ladder">
+   <geometry h="200" w="600" x="500" y="1020"/>
+  </furnitureitem>
+ </furniture>
+ <devices>
+  <device type="server">
+   <geometry h="200" w="200" x="659.85775992159529" y="388.46515444634178"/>
+   <realsize h="100" l="200" w="200"/>
+   <info brand="" ip="" name="" serialNumber=""/>
+  </device>
+  <device type="phone">
+   <geometry h="35" w="20" x="1011.8620303894979" y="361.59459944879188"/>
+   <realsize h="100" l="35" w="20"/>
+   <info brand="" ip="" name="" serialNumber=""/>
+  </device>
+  <device type="printer">
+   <geometry h="60" w="60" x="893.63158840027927" y="708.22475891718511"/>
+   <realsize h="40" l="60" w="60"/>
+   <info brand="" ip="" name="" serialNumber=""/>
+  </device>
+ </devices>
+</house>

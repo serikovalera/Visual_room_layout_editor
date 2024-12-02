@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Редактор схемы устройств</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="arrowBtn">
+       <property name="toolTip">
+        <string>Режим выделения</string>
+       </property>
+       <property name="text">
+        <string>Hand</string>
+       </property>
+       <property name="icon">
+        <iconset resource="assets.qrc">
+         <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="dragBtn">
+       <property name="toolTip">
+        <string>Режим перетаскивания</string>
+       </property>
+       <property name="text">
+        <string>Drag</string>
+       </property>
+       <property name="icon">
+        <iconset resource="assets.qrc">
+         <normaloff>:/icons/drag.png</normaloff>:/icons/drag.png</iconset>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="frameShape">
+        <enum>QFrame::VLine</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="openBtn">
+       <property name="toolTip">
+        <string>Открыть файл</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="assets.qrc">
+         <normaloff>:/icons/open.png</normaloff>:/icons/open.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveBtn">
+       <property name="toolTip">
+        <string>Сохранить файл</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="assets.qrc">
+         <normaloff>:/icons/save.png</normaloff>:/icons/save.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveAsBtn">
+       <property name="toolTip">
+        <string>Сохранить файл как</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="assets.qrc">
+         <normaloff>:/icons/saveas.png</normaloff>:/icons/saveas.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="editorLayout"/>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>
